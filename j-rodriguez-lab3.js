@@ -64,3 +64,15 @@ console.log(`Original Array: [${a2}] Sorted Array: [${sortNumbers(a2)}]`);
 
 const a3 = [3, 0, 10, -15, 7, 7];
 console.log(`Original Array: [${a3}] Sorted Array: [${sortNumbers(a3)}]`);
+
+// Exercise #4
+function celsiusToFahrenheit(celsius) {
+  const fahrenheit = (celsius * 9 / 5) + 32;
+
+  console.log(`${celsius.toFixed(1)} Celsius = ${fahrenheit.toFixed(1)} Fahrenheit`);
+}
+
+// Test cases
+celsiusToFahrenheit(30);
+celsiusToFahrenheit(-5);
+celsiusToFahrenheit(0);
