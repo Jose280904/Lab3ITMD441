@@ -47,3 +47,20 @@ function countVowels(word) {
 console.log(`Car: ${countVowels("Car")} vowels`);
 console.log(`Rodriguez: ${countVowels("Rodriguez")} vowels`);
 console.log(`Chicago: ${countVowels("Chicago")} vowels`);
+
+// Exercise #3
+function sortNumbers(numbers) {
+  const copy = [...numbers];
+  copy.sort((a, b) => a - b);
+  return copy;
+}
+
+//test cases
+const a1 = [9, 4, 6, 2];
+console.log(`Original Array: [${a1}] Sorted Array: [${sortNumbers(a1)}]`);
+
+const a2 = [6, 7, 5, 25, 3];
+console.log(`Original Array: [${a2}] Sorted Array: [${sortNumbers(a2)}]`);
+
+const a3 = [3, 0, 10, -15, 7, 7];
+console.log(`Original Array: [${a3}] Sorted Array: [${sortNumbers(a3)}]`);
