@@ -2,7 +2,6 @@
 // ITMD 441 Undergraduate Student
 
 //Exercise #1
-
 function minMaxAverage(numbers) {
   if (!Array.isArray(numbers) || numbers.length === 0) {
     console.log("Total Numbers: 0, Min Value: N/A, Max Value: N/A, Average: N/A");
@@ -28,6 +27,6 @@ function minMaxAverage(numbers) {
 
 //Test cases
 minMaxAverage([2, 5, 23, 6, 9, 4, 30, 1]);
-minMaxAverage([1, 5, 3, 5, 10, 12, 8, 6]);
-minMaxAverage([10, -2, 7, 7, 0, 15, 3]);
+minMaxAverage([3, 6, 9, -12, 3, 4, 2, 1]);
+minMaxAverage([10, 6, 17, -8, 7, 5, 2]);
 
