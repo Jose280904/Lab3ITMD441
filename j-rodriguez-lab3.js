@@ -30,3 +30,20 @@ minMaxAverage([2, 5, 23, 6, 9, 4, 30, 1]);
 minMaxAverage([3, 6, 9, -12, 3, 4, 2, 1]);
 minMaxAverage([10, 6, 17, -8, 7, 5, 2]);
 
+// Exercise #2
+function countVowels(word) {
+  const vowels = "aeiou";
+  let count = 0;
+  const s = String(word).toLowerCase();
+
+  for (let i = 0; i < s.length; i++) {
+    if (vowels.includes(s[i])) count++;
+  }
+
+  return count;
+}
+
+// Test cases
+console.log(`Car: ${countVowels("Car")} vowels`);
+console.log(`Rodriguez: ${countVowels("Rodriguez")} vowels`);
+console.log(`Chicago: ${countVowels("Chicago")} vowels`);
